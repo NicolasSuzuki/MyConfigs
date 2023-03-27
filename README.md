@@ -1,1 +1,1 @@
-It's just my vimrc file
+It's just my configs file
