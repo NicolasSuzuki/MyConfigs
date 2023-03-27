@@ -1,0 +1,8 @@
+alias createvenv='virtualenv venv --python=python3.8'
+alias activenv='source venv/bin/activate'
+
+alias redison='redis-server --daemonize yes'
+alias openandroid='/usr/local/android-studio/bin/studio.sh'
+
+function mygrep { grep -RiHn "$1" . --color --exclude-dir=venv --exclude-dir=env --exclude-dir=node_modules --exclude-dir=logs; }
+fortune | cowsay | lolcat
