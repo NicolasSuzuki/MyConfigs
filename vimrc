@@ -428,10 +428,9 @@ if has('autocmd')
   autocmd GUIEnter * set visualbell t_vb=
 endif
 
+"" If doesn't work the copy to clipboard install vim-gtk3 or similar
 "" Copy/Paste/Cut
-if has('unnamedplus')
-  set clipboard=unnamed,unnamedplus
-endif
+set clipboard=unnamedplus
 
 noremap YY "+y<CR>
 noremap <leader>p "+gP<CR>
